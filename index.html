@@ -11,6 +11,44 @@
         .me{
             width: 25%;
         }
+            
+        .gallery_3{
+            display: flex;
+            overflow-x: scroll;
+        }
+            
+        .gallery_3 div{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: px;
+            flex: none;
+            gap: 5px;
+        }
+            
+                /* .gallery_3 div img{
+                    width: 50%;
+                } */
+            
+                /* .gallery_3::-webkit-scrollbar{
+                    display: none;
+                } */
+            
+                .gallery-wrap_3{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .gallery_3 div img:hover{
+                    filter: grayscale(0);
+                    cursor: pointer;
+                }
+                    
+                   
+                    /* .gallery_3 h1{
+                     color: rgba(255, 255, 255, 0.623);
+                        text-align: center;
+                        font-size: 20px;
+                    } */
     </style>
 </head>
 <body>
@@ -44,8 +82,47 @@
                 <h1 style="padding-bottom: 20px;">Explore our lineup of extraordinary TVs.</h1>
                 <p style="padding-bottom: 15px;">Discover the TV that is right for you.</p>
             </div>
-             
+            <br>
 
+            <div class="gallery-wrap_3">
+                <div class="gallery_3">
+                <div>
+                    <div>
+                        <a href="details.html"><img src="Images/plasma.jpg" width="50%"></a>
+                        <h1>Plasma TV</h1>
+                    </div>
+                    <div>
+                        <a href="details2.html"><img src="Images/lcd.jpg" width="50%"></a>
+                        <h1>LCD TV</h1>
+                    </div>
+                    <div>
+                        <a href="details3.html"><img src="Images/led.jpg" width="50%"></a>
+                        <h1>LED TV</h1>
+                    </div>
+                    <div>
+                        <a href="details4.html"><img src="Images/neoqled.jpg" width="50%"></a>
+                        <h1>Neo QLED TV</h1>
+                    </div>
+                    <div>
+                        <a href="details5.html"><img src="Images/qled.jpg" width="50%"></a>
+                        <h1>QLED TV</h1>
+                    </div>
+                    <div>
+                        <a href="details6.html"><img src="Images/miniled.png" width="30%"></a>
+                        <h1>Mini LED TV</h1>
+                    </div>
+                    <div>
+                        <a href="details7.html"><img src="Images/microld.jpg" width="50%"></a>
+                        <h1>Micro LED TV</h1>
+                    </div>
+                
+                    <div>
+                        <a href="details8.html"><img src="Images/projector.jpg" width="30%"></a>
+                        <h1>Projectors</h1>
+                    </div>
+                    </div>
+                </div>
+            </div>
 
             
                 <div style="display: flex;flex-wrap: wrap;">
